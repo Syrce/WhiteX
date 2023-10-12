@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenX Studio</title>
+    <link rel="icon" href="img/IconoV1.PNG" type="image/ico">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/reviews.css">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+    <link rel="stylesheet" type="text/css" href="css/colors.css">
+    <link rel="stylesheet" type="texto/css" href="css/fonts.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <nav>
+    <div class="logo">
+        <img src="img/LogoV1.png" alt="Logo" width="20" height="20">
+    </div>
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#team">TEAM</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#comments">COMMENTS</a></li>
+            <li><a href="#discord-community">DISCORD COMMUNITY</a></li>
+
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="about-content">
+            <section id="sobremi">
+                <div class="about-content">
+                    <h2><span>HOME</span></h2>
+                    <p>¡Hola! Soy Syrce y quiero contarte un poco sobre mí</p>
+                    <p>Soy un apasionado por las webs y he estado trabajando en haciendo webs durante 3 dias</p>
+                    <p>Me dedico a hacer nada wazaaa y disfruto cada día haciendo lo que amo. (Ignora el banner)</p>
+                    <img src="img/Ciudad.gif" alt="Dev Web By Syrceffx">
+                </div>
+            </section>
+            
+        </div>
+    </section>
+    
+    <section id="team">
+        <div class="title-container">
+            <h1 class="section-title"><span>TEAM</span></h1>
+        </div>
+        <div class="container">
+            <div class="movable-element center">
+                <h1>Eduarpanelero</h1>
+                <p>Soy el mejor Panlero Del Mundo</p>
+                <div class="discord-container">
+                    <i class="fab fa-discord" id="discord-icon"></i>
+                    <p id="discord-text">EduarXiter#7777</p>
+                </div>
+                <img src="img/Eduarpanelero.gif" alt="Imagen 1">
+            </div>
+            <div class="movable-element">
+                <h1>Syrceffx</h1>
+                <p>No soy perfecto pero tu menos</p>
+                <div class="discord-container">
+                    <i class="fab fa-discord" id="discord-icon"></i>
+                    <p id="discord-text">Syrceffx#0</p>
+                </div>
+                <img src="img/akeno.gif" alt="Imagen 2">
+            </div>
+            <div class="movable-element">
+                <h1>Agustino3920</h1>
+                <p>La perfección va más allá de mí</p>
+                <div class="discord-container">
+                    <i class="fab fa-discord" id="discord-icon"></i>
+                    <p id="discord-text">Agustinoelcrick#3920</p>
+                </div>
+                <img src="img/Agustino3920.jpg" alt="Imagen 3">
+            </div>
+        </div>
+    </section>    
+
+    <section id="projects">
+        <div class="title-container">
+            <h1 class="wordx"><span>PROJECTS</span></h1>
+        </div>
+                <div class="project-card left">
+                    <div class="project-info">
+                        <h2>Project - Syrceffx</h2>
+                        <p>Por el momento no contamos con proyectos.</p>
+                    </div>
+                </div>
+                <div class="project-card right">
+                    <div class="project-info">
+                        <h2>Project - Agustino</h2>
+                        <p>Por el momento no contamos con proyectos.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    <section id="comments">
+        <div class="title-container">
+            <h1 class="wordx"><span>COMMENTS</span></h1>
+        </div>
+            <div class="container">
+                <div class="item left">
+                    <img src="img/anonimo.jpg" alt="Imagen 1">
+                    <h2>Comments - Anonimo</h2>
+                    <p>No se puede dar detalles de la persona:</p>
+                    <p>el mejor de los 3 es Agustino aunque syrce haga webs y todo eso y eduar sea bueno en lo suyo nadie le gana ah agustino el mejor developer que ni en su casa lo conocen AJJSJAJAS</p>
+                </div>
+                <div class="item right">
+                    <img src="img/Angelina.png" alt="Imagen 2">
+                    <h2>Comments - Angelina</h2>
+                    <p>Comentario Escrito Por Angelina:</p>
+                    <p>Los 3 son los mejores haciendo sus cosas syrce haciendo webs,agustino el mejor developer y con los mejores codigos mientras eduar solo sirve para acarriarme HAHA</p>
+                </div>
+            </div>        
+    </section>
+    
+
+    <section id="discord-community">
+        <div class="container">
+            <h2 id="discord-icon">Discord Comunidad</h2>
+            <p id="discord-text">Bienvenido a nuestra comunidad de Discord, donde puedes unirte a la conversación y conectarte con otros miembros.</p>
+            <a href="index.html" class="discord-link" id="discord-icon"> Únete a nuestro servidor de Discord</a>
+        </div>
+    </section>
+    
+    
+
+    <script src="js/main.js"></script>
+    <div id="particles-container"></div>
+    <script>
+        particlesJS("particles-container", {
+            "particles": {
+                "number": {
+                    "value": 150, // Cantidad de partículas
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#f14b2e" // Color de las partículas
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    }
+                },
+                "opacity": {
+                    "value": 0.7, // Opacidad de las partículas
+                    "random": false,
+                    "anim": {
+                        "enable": false,
+                        "speed": 1,
+                        "opacity_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "size": {
+                    "value": 2, // Tamaño de las partículas
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                        "speed": 40,
+                        "size_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150, // distancia de partículas
+                    "color": "#ff0000", // Color de las partículas linias
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 5,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 600,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "repulse"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 400,
+                        "line_linked": {
+                            "opacity": 1
+                        }
+                    },
+                    "bubble": {
+                        "distance": 400,
+                        "size": 40,
+                        "duration": 2,
+                        "opacity": 8,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 200,
+                        "duration": 0.4
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+    </script>
+</body>
+</html>
